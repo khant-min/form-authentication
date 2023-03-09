@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import axios from "../api/axios";
 
 const LogIn = () => {
-  const LOGIN_URL = "/auth  ";
+  const LOGIN_URL = "/auth";
   const emailRef = useRef<HTMLInputElement>(null);
   const errRef = useRef<HTMLParagraphElement>(null);
 
