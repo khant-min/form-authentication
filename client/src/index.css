@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form {
+  @apply flex flex-col p-4 gap-2;
+}
+
+.form input {
+  @apply p-2 rounded-sm;
+}
+
+.form button {
+  @apply bg-teal-700 p-2 rounded-sm hover:bg-teal-600 transition-all mt-4 text-white;
+}
+
+.instructions,
+.errMsg {
+  @apply bg-red-400 text-red-200 text-sm p-2;
+}
+
+.offscreen {
+  @apply absolute left-[-9999px];
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.login {
+  @apply flex flex-col p-3 gap-2 rounded-sm;
+}
+
+.login input {
+  @apply p-2 rounded-sm;
+}
+.login button {
+  @apply bg-teal-700 hover:bg-teal-600 p-2 mt-4 text-white rounded-sm transition-all;
+}
+
+.header {
+  @apply text-lg px-4 py-2;
+}
