@@ -67,7 +67,7 @@ const Register = () => {
         {
           headers: {
             "Content-Type": "application/json",
-            // withCredentials: true,
+            withCredentials: true,
           },
         }
       );
@@ -93,7 +93,7 @@ const Register = () => {
       {success ? (
         <section>
           <h1>Success</h1>
-          <a href="#">Sign In</a>
+          <Link to="login">Log In</Link>
         </section>
       ) : (
         <section className=" bg-gray-300 w-[400px] rounded-sm">
