@@ -67,6 +67,7 @@ const Register = () => {
         {
           headers: {
             "Content-Type": "application/json",
+            header: "Access-Control-Allow-Origin: *",
             withCredentials: true,
           },
         }
