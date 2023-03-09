@@ -1,6 +1,6 @@
 const allowedOrigins = [
   "http://localhost:3500/",
   "http://localhost:5173",
-  "https://ei-ei.vercel.app/",
+  "https://form-authentication-orpin.vercel.app/",
 ];
 module.exports = allowedOrigins;
